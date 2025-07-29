@@ -263,7 +263,7 @@ def serve_once():
                         print(f" Predicted: {predicted}")
 
                 except ConnectionError as e:
-                    print(f"🔌 Client disconnected: {e}")
+                    print(f" Client disconnected: {e}")
                     break
                 except Exception as e:
                     print(f" Error: {e}")
